@@ -47,16 +47,8 @@ Ensure you have Python 3.8+ installed. Install the required libraries:
 pip install -r requirements.txt
 ```
 
-### **Step 3: Add API Keys**
-For Twitter scraping, replace placeholders in `scripts/scraper.py` with your API credentials:
-```python
-API_KEY = "your_api_key"
-API_SECRET = "your_api_secret"
-ACCESS_TOKEN = "your_access_token"
-ACCESS_SECRET = "your_access_secret"
-```
 
-### **Step 4: Run the Project**
+### **Step 3: Run the Project**
 You can run the project in two ways:
 1. **Using the Main Script:**
    ```bash
@@ -137,6 +129,3 @@ The model is evaluated using:
 - Use advanced NLP models (e.g., Transformers) for better sentiment understanding.
 - Incorporate historical stock price data to enhance predictions.
 - Develop a web app for real-time predictions.
-
-
-```
